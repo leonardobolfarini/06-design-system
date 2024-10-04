@@ -1,0 +1,16 @@
+{
+  "name": "@ignite-ui/core",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "@storybook/storybook-deployer": "^2.8.16",
+    "turbo": "^2.1.1"
+  },
+  "packageManager": "npm@10.0.0"
+}
