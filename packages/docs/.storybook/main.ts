@@ -30,7 +30,7 @@ const config: StorybookConfig = {
     autodocs: true,
   },
   viteFinal: (config, { configType }) => {
-    if (configType == 'PRODUCTION') {
+    if (configType === 'PRODUCTION') {
       config.base = '/06-design-system/'
     }
 
