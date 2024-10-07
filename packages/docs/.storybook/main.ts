@@ -31,7 +31,7 @@ const config: StorybookConfig = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/06-design-system/'
+      config.base = 'https://leonardobolfarini.github.io/06-design-system/'
     }
 
     return config
