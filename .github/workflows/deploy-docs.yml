@@ -22,7 +22,7 @@ jobs:
             - run: npm run build
               env: 
                 TURBO_TOKEN: VC6BZhWDbvWWB5f6mATdXRgM
-                TURBO_TEAM: leonardo-bolfarinis-projects
+                TURBO_TEAM: leonardo-bolfarinis-project
 
             - name: Deploy storybook
               working-directory: ./packages/docs
