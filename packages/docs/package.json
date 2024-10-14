@@ -1,7 +1,6 @@
 {
-  "name": "@ignite-ui/docs",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@hakari-ui-design-system/docs",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "build-vite": "tsc -b && vite build",
@@ -10,9 +9,9 @@
     "dev": "storybook dev -p 6006"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
+    "@hakari-ui-design-system/eslint-config": "*",
+    "@hakari-ui-design-system/react": "*",
+    "@hakari-ui-design-system/tokens": "*",
     "@storybook/addon-a11y": "^8.3.4",
     "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",

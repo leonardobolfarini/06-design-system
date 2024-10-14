@@ -1,6 +1,6 @@
 {
-  "name": "@ignite-ui/tokens",
-  "version": "1.0.0",
+  "name": "@hakari-ui-design-system/tokens",
+  "version": "3.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -14,8 +14,8 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "@ignite-ui/ts-config": "*",
-    "@ignite-ui/eslint-config": "*",
+    "@hakari-ui-design-system/ts-config": "*",
+    "@hakari-ui-design-system/eslint-config": "*",
     "tsup": "^8.2.4",
     "typescript": "^5.6.2"
   }

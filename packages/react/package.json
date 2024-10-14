@@ -1,6 +1,6 @@
 {
-  "name": "@ignite-ui/react",
-  "version": "1.0.0",
+  "name": "@hakari-ui-design-system/react",
+  "version": "3.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -14,9 +14,9 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@hakari-ui-design-system/eslint-config": "*",
+    "@hakari-ui-design-system/tokens": "*",
+    "@hakari-ui-design-system/ts-config": "*",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
     "react": "^18.3.1",
