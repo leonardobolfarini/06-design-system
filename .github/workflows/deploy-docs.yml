@@ -23,7 +23,7 @@ jobs:
 
             - run: npm run build
               env:
-                TURBO_TOKEN: 2cfiCqUZ5Ix3LwkUIt8Q7IpV
+                TURBO_TOKEN: ${{ secrets.VECEL_TOKEN }}
                 TURBO_TEAM: leonardo-bolfarinis-projects
 
             - name: Deploy storybook

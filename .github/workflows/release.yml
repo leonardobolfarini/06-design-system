@@ -32,5 +32,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          TURBO_TOKEN: 2cfiCqUZ5Ix3LwkUIt8Q7IpV
+          TURBO_TOKEN: ${{ secrets.VECEL_TOKEN }}
           TURBO_TEAM: leonardo-bolfarinis-projects
