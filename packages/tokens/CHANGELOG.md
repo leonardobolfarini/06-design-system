@@ -1,5 +1,11 @@
 # @hakari-ui-design-system/tokens
 
+## 4.0.0
+
+### Major Changes
+
+- Add a new test color
+
 ## 3.0.0
 
 ### Major Changes
