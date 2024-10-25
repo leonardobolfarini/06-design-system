@@ -16,5 +16,8 @@
     "@storybook/storybook-deployer": "^2.8.16",
     "turbo": "^2.1.1"
   },
-  "packageManager": "npm@10.0.0"
+  "packageManager": "npm@10.0.0",
+  "dependencies": {
+    "@radix-ui/react-tooltip": "^1.1.3"
+  }
 }
