@@ -9,7 +9,7 @@ export default {
   title: 'Form/Toast',
   component: ToastComponent,
   args: {
-    data: new Date(),
+    date: new Date(),
   },
   decorators: [
     (Story) => {

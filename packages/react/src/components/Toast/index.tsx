@@ -8,10 +8,14 @@ import { format } from 'date-fns'
 import { ptBR } from 'date-fns/locale'
 
 export interface ToastComponentProps {
-  data: Date
+  date: Date
 }
 
-export const ToastComponent = ({ data }: ToastComponentProps) => {
+export const ToastComponent = ({ date }: ToastComponentProps) => {
+  const weekDay = format(date, 'eeee', { locale: ptBR })
+  const day = format(date, 'dd', { locale: ptBR })
+  const month = format(date, 'LLLL', { locale: ptBR })
+  const time = format(date, 'HH', { locale: ptBR })
   return (
     <Toast.Provider duration={5000000}>
       <ToastRoot>
@@ -21,10 +25,7 @@ export const ToastComponent = ({ data }: ToastComponentProps) => {
           </Toast.Title>
           <Toast.Description>
             <Text color={'gray'}>
-              {format(data, 'eeee', { locale: ptBR })},{' '}
-              {format(data, 'd', { locale: ptBR })} de{' '}
-              {format(data, 'MMMM', { locale: ptBR })} às{' '}
-              {format(data, 'HH', { locale: ptBR })}h
+              {weekDay}, {day} de {month} às {time}h
             </Text>
           </Toast.Description>
         </ToastInfos>
